@@ -1,0 +1,137 @@
+Level 1-
+git init
+
+Level 2-
+git config user.name "Mridul Bagri"
+git config user.email "mridulbagri17@gmail.com"
+
+Level 3-
+git add README
+
+Level 4-
+git commit
+
+Level 5-
+git clone https://github.com/Gazler/cloneme.git
+
+Level 6-
+git clone https://github.com/Gazler/cloneme.git my_cloned_repo
+
+Level 7-
+Edited the gitignore file and added *.swp at the end to ignore these files
+
+Level 8-
+echo *.a >> .gitignore
+echo !lib.a >> .gitignore
+
+Level 9-
+git status
+
+Level 10-
+git status
+
+Level 11-
+git rm deleteme.rb
+
+Level 12-
+git status 
+git rm --cached deleteme.rb
+
+
+Level 13-
+git stash
+
+Level 14-
+git mv oldfile.txt newfile.txt
+git add newfile.txt
+
+Level 15-
+mkdir src
+git mv index.html src
+git mv about.html src
+git mv contact.html src
+
+
+Level 16- 
+git log
+
+Level 17-
+git tag -a new-tag 
+
+Level 18-
+git push origin --tags
+
+Level 19-
+git add forgotten_file.rb
+git commit --amend -m "Added Missing File"
+
+Level 20-
+git commit -m "Initial-Commit" --date "Thu Feb 10"
+
+Level 21-
+git reset HEAD to_commit_second.rb
+
+Level 22-
+git reset --soft HEAD~1
+
+Level 23-
+git checkout -- config.rb
+
+Level 24-
+git remote show
+
+Level 25-
+git remote show
+git config --get remote.remote_location.url
+
+Level 26-
+git pull origin master
+
+Level 27-
+git remote add origin https://github.com/githug/githug
+
+Level 28-
+git rebase origin/master master
+git push origin master
+
+Level 29-
+git diff
+
+Level 30-
+git blame `config.rb`
+
+Level 31-
+git branch test_code
+
+Level 32-
+git checkout -b my_branch
+
+Level 33-
+git checkout v1.2
+
+Level 34-
+git checkout tags/v1.2
+
+Level 35-
+git branch test_branch HEAD~1
+
+Level 36-
+git branch -d delete_me
+
+Level 37-
+git push origin test_branch
+
+Level 38-
+git branch
+git merge feature
+
+Level 39-
+git fetch origin
+
+Level 40-
+git repack -d
+
+
+
+
+
